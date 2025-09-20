@@ -1,0 +1,94 @@
+{
+    "FileVersion": 3,
+    "Version": 12,
+    "VersionName": "0.6.3",
+    "FriendlyName": "Ludus AI",
+    "Description": "Ludus AI is an Unreal Engine AI toolkit, designed to speed up game development by leveraging Ludus AI services. It features answering questions about Unreal Engine source code and solving problems, automating blueprint generation and editing, and AI agent capable of making edits to your project and generate 3D assets.",
+    "Category": "Editor Tools",
+    "CreatedBy": "Ludus AI P.S.A",
+    "CreatedByURL": "https://ludusengine.com",
+    "DocsURL": "",
+    "MarketplaceURL": "",
+    "SupportURL": "",
+    "EngineVersion": "5.6.0",
+    "CanContainContent": true,
+    "IsBetaVersion": true,
+    "IsExperimentalVersion": true,
+    "Installed": true,
+    "Modules": [
+        {
+            "Name": "LudusCore",
+            "Type": "Editor",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [
+                "Win64",
+                "Mac",
+                "Linux"
+            ]
+        },
+        {
+            "Name": "LudusClient",
+            "Type": "Editor",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [
+                "Win64",
+                "Mac",
+                "Linux"
+            ]
+        },
+        {
+            "Name": "LudusChatUI",
+            "Type": "Editor",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [
+                "Win64",
+                "Mac",
+                "Linux"
+            ]
+        },
+        {
+            "Name": "LudusEditor",
+            "Type": "Editor",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [
+                "Win64",
+                "Mac",
+                "Linux"
+            ]
+        },
+        {
+            "Name": "LudusMarkdown",
+            "Type": "Editor",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [
+                "Win64",
+                "Mac",
+                "Linux"
+            ]
+        },
+        {
+            "Name": "LudusDatabase",
+            "Type": "Editor",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [
+                "Win64",
+                "Mac",
+                "Linux"
+            ]
+        }
+    ],
+    "Plugins": [
+        {
+            "Name": "EditorScriptingUtilities",
+            "Enabled": true
+        },
+        {
+            "Name": "SQLiteCore",
+            "Enabled": true
+        },
+        {
+            "Name": "SQLiteSupport",
+            "Enabled": true
+        }
+    ]
+}
